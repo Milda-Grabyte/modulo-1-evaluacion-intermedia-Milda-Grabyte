@@ -48,6 +48,8 @@ main {
 }
 
 h1 {
+    text-align: center;
+    margin: auto;
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
