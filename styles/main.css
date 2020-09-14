@@ -30,6 +30,10 @@ main {
     background-color: #3CDBC0;
 }
 
+.logo {
+    width: 155px;
+}
+
 .menu {
     display: flex;
     flex-direction: row;
@@ -61,5 +65,9 @@ h1 {
         flex-direction: row;
         justify-content: space-between;
         padding: 20px 30px 20px 30px;
+    }
+
+    h1 {
+        font-size: 40px;
     }
 }
