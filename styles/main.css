@@ -21,6 +21,12 @@ header {
     box-sizing: border-box;
 }
 
+ul {
+    list-style-type: none;
+    display:flex;
+    justify-content: center;
+}
+
 main {
     height: 100vh;
     display: flex;
@@ -40,10 +46,15 @@ main {
     font-size: 16px;
     color:#4a4a4a;
     padding: 10px 0 0 0;
+    text-transform: uppercase;
 }
 
 .blog {
-    padding: 0 20px 0 0;
+    padding: 10px 20px 13px 0;
+}
+
+.contact {
+    padding: 10px 0 13px 0;
 }
 
 .blog, .blog:visited, .contact, .contact:visited {
@@ -52,12 +63,15 @@ main {
 }
 
 h1 {
-    text-align: center;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
     color: #FFFFFF;
+    text-transform: capitalize;
+    /* otra forma de hacerlo sin span es forzar un width menor y poner un text-align: center; */
 }
 
 @media all and (min-width: 768px) {
